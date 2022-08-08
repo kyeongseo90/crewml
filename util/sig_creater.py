@@ -25,7 +25,7 @@ SOFTWARE.
 '''
 
 import hashlib
-from crewml.common import DATA_DIR
+from common import DATA_DIR
 import os
 import zipfile
 import logging

@@ -26,9 +26,9 @@ SOFTWARE.
 
 
 import traceback
-import crewml.common as st
-from crewml.config import config
-from crewml.ml.super import prmoddep as deploy
+import common as st
+from config import config
+from ml.super import prmoddep as deploy
 
 
 def main():

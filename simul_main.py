@@ -24,14 +24,14 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 import traceback
-from crewml.simul.pairing import flclean as fl
-from crewml.config import config
-from crewml.simul.pairing import flcat
-from crewml.simul.pairing import dutygen as dg
-from crewml.simul.pairing import pairinggen as pg
-from crewml.simul.pairing import costcal as cc
-import crewml.common as st
-from crewml.data import feature as fet
+from simul.pairing import flclean as fl
+from config import config
+from simul.pairing import flcat
+from simul.pairing import dutygen as dg
+from simul.pairing import pairinggen as pg
+from simul.pairing import costcal as cc
+import common as st
+from data import feature as fet
 
 
 def main():

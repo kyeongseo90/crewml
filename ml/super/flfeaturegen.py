@@ -26,7 +26,7 @@ SOFTWARE.
 
 import pandas as pd
 import logging
-from crewml.common import DATA_DIR
+from common import DATA_DIR
 from sklearn.preprocessing import LabelEncoder
 from category_encoders import TargetEncoder
 

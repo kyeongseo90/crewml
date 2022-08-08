@@ -26,7 +26,7 @@ SOFTWARE.
 import logging
 import seaborn as sns
 import numpy as np
-import crewml.exception as exp
+import exception as exp
 import matplotlib.pyplot as plt
 import itertools
 import pandas as pd

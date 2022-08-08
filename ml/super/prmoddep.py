@@ -26,7 +26,7 @@ SOFTWARE.
 import pandas as pd
 import logging
 import pickle
-from crewml.common import DEPLOY_DIR
+from common import DEPLOY_DIR
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score

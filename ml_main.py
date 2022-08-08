@@ -26,11 +26,11 @@ SOFTWARE.
 
 
 import traceback
-import crewml.common as st
-from crewml.config import config
-from crewml.ml.super import prlogreg as prlg
-from crewml.ml.super import prmoddep as pmd
-from crewml.ml.super import flfeaturegen as feature_gen
+import common as st
+from config import config
+from ml.super import prlogreg as prlg
+from ml.super import prmoddep as pmd
+from ml.super import flfeaturegen as feature_gen
 
 
 def main():
@@ -118,7 +118,7 @@ def main():
 
 if __name__ == '__main__':
     import logging.config
-    logging.config.fileConfig(
-        st.RESOURCE_DIR+'logging.ini', disable_existing_loggers=False)
+    # logging.config.fileConfig(
+    #     st.RESOURCE_DIR+'logging.ini', disable_existing_loggers=False)
 
     main()

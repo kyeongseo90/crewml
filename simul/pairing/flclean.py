@@ -33,7 +33,7 @@ import calendar
 import datetime
 import pytz
 import logging.config
-from crewml.common import DATA_DIR
+from common import DATA_DIR
 
 
 class FlightCleaner:

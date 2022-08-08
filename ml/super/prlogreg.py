@@ -35,10 +35,10 @@ import xgboost as xgb
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score
 import logging
-from crewml.common import DATA_DIR
+from common import DATA_DIR
 from sklearn.metrics import matthews_corrcoef
 from sklearn.metrics import balanced_accuracy_score
-import crewml.common as st
+import common as st
 import pickle
 from sklearn import preprocessing
 from sklearn.model_selection import RandomizedSearchCV, GridSearchCV

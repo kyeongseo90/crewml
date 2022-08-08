@@ -30,9 +30,9 @@ import itertools
 import numpy as np
 import glob
 
-from crewml.config import config
-import crewml.common as st
-from crewml.exception import CrewmlDataError
+from config import config
+import common as st
+from exception import CrewmlDataError
 
 
 
